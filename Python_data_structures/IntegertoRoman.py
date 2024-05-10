@@ -1,7 +1,13 @@
 #Given a roman numeral, convert it to an integer.
 
 # Pseudocode :
-# Store
+# A dictionary stores key value pair for each roman symbol to integer value 
+# Initialize the 3 digits where a roman number is stored after getting evaluated 
+# For every digit look uo the corresponding integer value and store it in the variable 
+# If roman numeral contains length more than 1 store it in correspoding place value integer 
+# add all place values to find teh sum and hence teh integer valu of the corresponding roman number 
+# final sum holds teh integer value 
+
 
 def romanToInt(s):
     Int_value1=0
@@ -45,12 +51,7 @@ def romanToInt(s):
         if((i+1)>=len(s)):
             break
 
-            #if(s[i])
-
     return sum
 
 
-            # Now compare the s[i+1] value with s[i] value
-
-
-print(romanToInt("II"))
+romanToInt("II")
