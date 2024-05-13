@@ -1,4 +1,6 @@
-
+# Problem : Find the unique numbers in an array 
+# To find the unique number in an array , first sort the array 
+# then iterate through the array and count each unique occurances of the digits .
 
 def myuniquenums():
     arr=[5, 3, 3, 5,9]
@@ -20,8 +22,6 @@ def myuniquenums():
         else:
             count=0
             
-            #return arr[curridx]
-
     print(arr)
     #return arr[maxidx]
 
