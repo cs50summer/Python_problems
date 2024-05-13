@@ -1,3 +1,9 @@
+# Given a Roman numeral , convert it into integer
+
+# Store Roman numeral to Integer into a dictionary 
+# Iterate through all roman numerals in a loop 
+# Introduce proper operations to evaluate place value once roman to integer conversion is done 
+# Add all values iteratively into a sum . The final value is a Integer .
 def romanToInt(s):
     Int_value1=0
     prev_value=0
