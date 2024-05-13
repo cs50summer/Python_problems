@@ -16,7 +16,7 @@ import sys
 #
 
 def makeAnagram(a, b):
-    # Sorting teh two string to arrange it in alphabetical order
+    # Sorting the two string to arrange it in alphabetical order
     a_std=sorted(a)
     b_std=sorted(b)
     #print the sorted arrays
@@ -28,6 +28,10 @@ def makeAnagram(a, b):
     output=0
 
     #Add key as character and value as number of occurences in the array
+    # Two strings are said to be anagram if we can form one string by arranging 
+    # the characters of another string. For example, Race and Care. Here, we can
+    #  form Race by arranging the characters of Care.
+    
     for i in a_std: #"abcd
         if ad.get(i)==None:
             ad[i]=1
