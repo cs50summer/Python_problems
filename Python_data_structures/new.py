@@ -4,10 +4,10 @@
 #A word is a maximal substring consisting of non-space characters only.
 
 def last_length(s):
-    #break doen teh string at each white spce , obtain teh last string
-    #len(break_s) -- length , print break_s is teh last word
+    #break doen the string at each white space , obtain the last string
+    #len(break_s) -- length , print break_s is the last word
+
     print(s)
-    #global i=0
     word=[]
     break_s=s.split(" ")[-1:]
     print(len(break_s))

@@ -1,3 +1,7 @@
+# Problem : Find the unique numbers in an array 
+# To find the unique number in an array , first sort the array 
+# then iterate through the array and count each unique occurances of the digits .
+
 def myuniquenums2():
     arr = [-336,513,-560,-481,-174,101,-997,40,-527,-784,-283,-336,513,-560,-481,-174,101,-997,40,-527,-784,-283,354]
 
